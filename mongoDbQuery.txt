@@ -1,0 +1,38 @@
+select all fields with where clause : db.getCollection('tblapplicationstores').find({packageName : 'com.subjectiveeffect.das'})
+
+
+Baburewala Chawl
+Jijamata Road
+Aghadi Nagar, Andheri East
+400093
+deepak.parab92@gmail.com
+
+Gomantak Hall
+Malaviya Road
+Vile Parle East
+400057
+
+
+Hall Mark Park build
+FatherVadi,Vasai East
+401208
+
+Sanmitra Chawl
+
+
+Nagesh Vasant Kale
+18/08/1975
+
+
+Microworld Software
+Road Number 15,plot no 80
+M.I.D.C Andheri east
+MUMBAI
+
+
+Proof
+witness adhar card
+patrika
+bhatachi naav and sign
+Couple passport sizde photo
+
