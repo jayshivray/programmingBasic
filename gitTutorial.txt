@@ -53,6 +53,8 @@ Git Credentials
 	-----------------------------get deleted file from git or get new file from git---------------------------	 
 	1] git checkout -- testfile.txt
 	
+	add folder with file 								-> git add dirName,git commit -m '',git push
+	remove folder with all files 				-> git rm -r dirName,git commit -m '',git push
 	
 	
 	
