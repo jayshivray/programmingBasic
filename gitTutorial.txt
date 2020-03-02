@@ -1,0 +1,72 @@
+Git Credentials
+
+	userName : jayshivray
+	Email address : bala.parab61@gmail.com
+	Password : deep@7a8a6a
+	
+1]	step create repository
+		create extention file in repository
+		add code in file and add description while atempting commet
+	  whene ever changes made have to attemp commet
+		
+
+	*to sync file from git need to install git bash on local system
+			
+			
+	1] clone project : (install git bash and open it and copy git url)
+	2] see all dir and files type 											-> ls 
+	3] see status of changes related file and directory -> git status
+		 if any file added or remove in current git repository then git status command show differences
+	4] create new file and upload on git 								-> git add fileName.txt
+	5] show the file status using 											-> git status
+		 this will commit the changes but not upload file -> git commit -m 'second file added'
+		 to show history of commits 											-> git log
+		 push file on git server													-> git push
+	
+	----------------------------updating files------------------------------------------------------------------------- 
+	1] if u change in any file then run -> git status it will display file status like [ modified:   secondFile.txt]
+	2] create new file and upload on git 								-> git add fileName.txt
+	4] show the file status using 											-> git status it will show green
+	3] to show difference between stage and local file  -> git difftool HEAD	
+		 this will commit the changes but not upload file -> git commit -m 'second file added'
+		 to show history of commits 											-> git log
+		 push file on git server													-> git push
+	-----------------------------Undoing/Reverting/Resetting code changes-----------------------------------------------
+	1] undo uncommited changes means we changed in any file and now we have to reset this changes
+		 after changing show difference and show status of file and for reset changes run bellow command
+		 git checkout -- testfile.txt		
+		 git checkout -- . [ for undo all un commited files]		
+	
+	2] undo commited changes
+		 changes in file then git add then commit changes now we are revert commited changes
+		 this command revert chnages acroding commit id and commit changes
+		 git revert 54c655753587a720217960dd58903098c6c587d0 this is commit id after run this command 
+		 :q and heat enter
+	3]if u want to revert commit chnages without doing git commit then run bellow command and after that commit changes 
+		git revert -n 54c655753587a720217960dd58903098c6c587d0
+	-----------------------------Remove file-----------------------------------------------------------------
+	1] remove file from local and git server ->
+		 git rm file1.txt
+		 git commit -m "remove file1.txt"
+		 git status
+		 git push
+	-----------------------------get deleted file from git or get new file from git---------------------------	 
+	1] git checkout -- testfile.txt
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
